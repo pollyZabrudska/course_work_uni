@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuWindow</class>
+ <widget class="QDialog" name="MenuWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>508</width>
+    <height>574</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(208, 255, 172)</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>500</y>
+     <width>179</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 9pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Choose yourself in your life</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>50</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 500 12pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>MENU</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>530</y>
+     <width>101</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(170, 170, 127);
+gridline-color: rgb(108, 108, 108);
+background-color: rgb(255, 255, 255);
+selection-background-color: rgb(205, 225, 255);</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="habitsButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>230</y>
+     <width>154</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(170, 170, 127);
+gridline-color: rgb(108, 108, 108);
+background-color: rgb(255, 255, 255);
+selection-background-color: rgb(205, 225, 255);</string>
+   </property>
+   <property name="text">
+    <string>Healthy Habits</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="wellnessPracticeButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>330</y>
+     <width>154</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(170, 170, 127);
+gridline-color: rgb(108, 108, 108);
+background-color: rgb(255, 255, 255);
+selection-background-color: rgb(205, 225, 255);</string>
+   </property>
+   <property name="text">
+    <string>Wellness Practice</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="todayPlansButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>180</y>
+     <width>154</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(170, 170, 127);
+gridline-color: rgb(108, 108, 108);
+background-color: rgb(255, 255, 255);
+selection-background-color: rgb(205, 225, 255);</string>
+   </property>
+   <property name="text">
+    <string>Today Plans</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quotesButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>280</y>
+     <width>154</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(170, 170, 127);
+gridline-color: rgb(108, 108, 108);
+background-color: rgb(255, 255, 255);
+selection-background-color: rgb(205, 225, 255);</string>
+   </property>
+   <property name="text">
+    <string>Quotes</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>120</y>
+     <width>221</width>
+     <height>289</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../PollysDiary/img/mindfulness_img.png</pixmap>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
